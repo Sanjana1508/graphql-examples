@@ -1,0 +1,26 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha users.test.js --recursive  --timeout 60000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "@prisma/client": "^2.30.3",
+    "apollo-server": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "graphql": "^15.5.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "easygraphql-tester": "^6.0.1",
+    "mocha": "^9.1.1",
+    "prisma": "^2.30.3"
+  }
+}
